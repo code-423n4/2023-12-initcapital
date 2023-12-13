@@ -10,7 +10,7 @@ import {ProxyAdmin} from '@openzeppelin-contracts/proxy/transparent/ProxyAdmin.s
 import {AccessControlManager} from '../../contracts/common/AccessControlManager.sol';
 import {PythOracleReader} from '../../contracts/oracle/PythOracleReader.sol';
 
-// import {IMockOracle, MockOracle, MockInvalidOracle} from '../mock/mockOracle.sol';
+// import {IMockOracle, MockOracle, MockInvalidOracle} from '../mock/MockOracle.sol';
 
 contract TestPythOracleReader is Test {
     PythOracleReader public pythOracleReader;
