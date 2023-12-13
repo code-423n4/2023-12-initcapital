@@ -130,7 +130,7 @@ Known issues:
     ```shell
     ape plugins install .
     ape compile
-    forge install
+    forge install foundry-rs/forge-std --no-commit
     ```
 
 (To compile the code, you can use either `ape compile` or `forge build` after installing the libraries)
