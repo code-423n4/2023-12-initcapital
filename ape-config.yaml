@@ -1,0 +1,17 @@
+plugins:
+  - name: solidity
+  - name: foundry
+
+dependencies:
+  - name: OpenZeppelin
+    github: OpenZeppelin/openzeppelin-contracts
+    version: 4.9.3
+  - name: OpenZeppelin-Upgradeable
+    github: OpenZeppelin/openzeppelin-contracts-upgradeable
+    version: 4.9.3
+
+solidity:
+  version: 0.8.19
+  import_remapping:
+    - "@openzeppelin-contracts/=OpenZeppelin/4.9.3"
+    - "@openzeppelin-contracts-upgradeable/=OpenZeppelin-Upgradeable/4.9.3"
