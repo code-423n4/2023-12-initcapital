@@ -45,32 +45,32 @@ Known issues:
 
 | Contract | SLOC | Purpose | 
 | ----------- | ----------- | ----------- | 
-| [contracts/common/library/UncheckedIncrement.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/library/UncheckedIncrement.sol) |  | Unchecked Increment for `uint` iterators | 
-| [contracts/common/AccessControlManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/AccessControlManager.sol) |  | Manage access controls | 
-| [contracts/common/UnderACM.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/UnderACM.sol) |  | Extensible contract for access control manager | 
-| [contracts/core/Config.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/Config.sol) |  | Config manager | 
-| [contracts/core/InitCore.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/InitCore.sol) |  | Main contract for most interactions to INIT | 
-| [contracts/core/LiqIncentiveCalculator.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/LiqIncentiveCalculator.sol) |  | Liquidation incentive calculation  | 
-| [contracts/core/PosManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/PosManager.sol) |  | Position manager  | 
-| [contracts/hook/MoneyMarketHook.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/hook/MoneyMarketHook.sol) |  | Hook for regular money market actions, for example, deposit, withdraw, borrow, repay  | 
-| [contracts/lending_pool/DoubleSlopeIRM.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/lending_pool/DoubleSlopeIRM.sol) |  | Interest rate model utilizing a 2-slope mechanism  | 
-| [contracts/lending_pool/LendingPool.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/lending_pool/LendingPool.sol) |  | ERC20 lending pool | 
-| [contracts/oracle/Api3OracleReader.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/oracle/Api3OracleReader.sol) |  | API3 oracle integration | 
-| [contracts/oracle/InitOracle.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/oracle/InitOracle.sol) |  | Oracle source manager contract | 
-| [contracts/risk_manager/RiskManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/risk_manager/RiskManager.sol) |  | Risk manager contract |
-| [contracts/helper/rebase_helper/mUSDUSDYHelper.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/helper/rebase_helper/mUSDUSDYHelper.sol) |  | Wrapper contract helper for wrapping/unwrapping mUSD to/from USDY |
-| [contracts/helper/rebase_helper/BaseRebaseHelper.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/helper/rebase_helper/BaseRebaseHelper.sol) |  | Base wrapper contract helper for wrapping/unwrapping rebase tokens |
+| [contracts/common/library/UncheckedIncrement.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/library/UncheckedIncrement.sol) | 8 | Unchecked Increment for `uint` iterators | 
+| [contracts/common/AccessControlManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/AccessControlManager.sol) | 9 | Manage access controls | 
+| [contracts/common/UnderACM.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/UnderACM.sol) | 8 | Extensible contract for access control manager | 
+| [contracts/core/Config.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/Config.sol) | 106 | Config manager | 
+| [contracts/core/InitCore.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/InitCore.sol) | 423 | Main contract for most interactions to INIT | 
+| [contracts/core/LiqIncentiveCalculator.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/LiqIncentiveCalculator.sol) | 80 | Liquidation incentive calculation  | 
+| [contracts/core/PosManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/PosManager.sol) | 263 | Position manager  | 
+| [contracts/hook/MoneyMarketHook.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/hook/MoneyMarketHook.sol) | 183 | Hook for regular money market actions, for example, deposit, withdraw, borrow, repay  | 
+| [contracts/lending_pool/DoubleSlopeIRM.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/lending_pool/DoubleSlopeIRM.sol) | 29 | Interest rate model utilizing a 2-slope mechanism  | 
+| [contracts/lending_pool/LendingPool.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/lending_pool/LendingPool.sol) | 183 | ERC20 lending pool | 
+| [contracts/oracle/Api3OracleReader.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/oracle/Api3OracleReader.sol) | 55 | API3 oracle integration | 
+| [contracts/oracle/InitOracle.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/oracle/InitOracle.sol) | 77 | Oracle source manager contract | 
+| [contracts/risk_manager/RiskManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/risk_manager/RiskManager.sol) | 61 | Risk manager contract |
+| [contracts/helper/rebase_helper/mUSDUSDYHelper.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/helper/rebase_helper/mUSDUSDYHelper.sol) | 23 | Wrapper contract helper for wrapping/unwrapping mUSD to/from USDY |
+| [contracts/helper/rebase_helper/BaseRebaseHelper.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/helper/rebase_helper/BaseRebaseHelper.sol) | 11 | Base wrapper contract helper for wrapping/unwrapping rebase tokens |
+| [contracts/common/TransparentUpgradeableProxyReceiveETH.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/TransparentUpgradeableProxyReceiveETH.sol) | 9 | Transparent upgradeable proxy that allows receiving ETH at the proxy level to avoid out-of-gas errors |
+| [contracts/common/Multicall.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/common/Multicall.sol) | 20 | Extensible multicall base logic |
 
 
 ## Out of scope
 
 - `contracts/common/library/InitErrors.sol`
 - `contracts/common/library/LogExpMath.sol`
-- `contracts/common/Multicall.sol`
 - `contracts/interfaces/*`
 - `contracts/mock/*`
 - `contracts/oracle/PythOracleReader.sol`
-- `contracts/common/TransparentUpgradeableProxyReceiveETH.sol`
 
 # Additional Context
 
@@ -102,8 +102,8 @@ Known issues:
 
 ```
 - If you have a public code repo, please share it here: -
-- How many contracts are in scope?: 15   
-- Total SLoC for these contracts?: 1519 
+- How many contracts are in scope?: 17   
+- Total SLoC for these contracts?: 1548 
 - How many external imports are there?: Many (most are OpenZeppelin's library)
 - How many separate interfaces and struct definitions are there for the contracts within scope?: 21 interfaces, 16 structs
 - Does most of your code generally use composition or inheritance?: Composition   
