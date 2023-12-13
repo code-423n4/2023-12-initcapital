@@ -31,7 +31,7 @@
 # Init Capital audit details
 - Total Prize Pool: $38,500 USDC
   - HM awards: $29,340 USDC 
-  - Analysis awards: $1,619 USDC 
+  - Analysis awards: $1,630 USDC 
   - QA awards: $815 USDC 
   - Gas awards: $815 USDC 
   - Judge awards: $5,400 USDC 
