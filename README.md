@@ -8,7 +8,7 @@
   - Judge awards: $5,400 USDC 
   - Scout awards: $500 USDC 
 - Join [C4 Discord](https://discord.gg/code4rena) to register
-- Submit findings [using the C4 form](https://code4rena.com/2023-12-init-capital-invitational/submit)
+- Submit findings [using the C4 form](https://code4rena.com/audits/2023-12-init-capital-invitational/submit)
 - [Read our guidelines for more details](https://docs.code4rena.com/roles/wardens)
 - Starts December 15, 2023 20:00 UTC
 - Ends December 21, 2023 20:00 UTC
