@@ -1,11 +1,11 @@
 
 # INIT Capital audit details
-- Total Prize Pool: $37,815 USDC
-  - HM awards: $29,133 USDC 
-  - Analysis awards: $1,619 USDC 
-  - QA awards: $809 USDC 
-  - Gas awards: $809 USDC 
-  - Judge awards: $5,395 USDC 
+- Total Prize Pool: $38,500 USDC
+  - HM awards: $29,340 USDC 
+  - Analysis awards: $1,630 USDC 
+  - QA awards: $815 USDC 
+  - Gas awards: $815 USDC 
+  - Judge awards: $5,400 USDC 
   - Scout awards: $500 USDC 
 - Join [C4 Discord](https://discord.gg/code4rena) to register
 - Submit findings [using the C4 form](https://code4rena.com/contests/2023-12-initcapital/submit)
