@@ -30,7 +30,7 @@ Known issues:
 
 ## Links
 
-- **Previous audits:** private (2)
+- **Previous audits:** See [audits folder](https://github.com/code-423n4/2023-12-initcapital/tree/main/audits)
 - **Documentation:** 
   - Gitbook: https://init-capital.gitbook.io/
   - Overview: https://docsend.com/view/mwwb5ptmyjkk86ih (password: Audit)
