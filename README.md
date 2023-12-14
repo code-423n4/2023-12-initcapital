@@ -26,8 +26,45 @@ Known issues:
 - `totalInterest` may slightly overestimate the actual interest accrual due to rounding up (in the order of wei).
 
 # Overview
-Code overview is provided in [the following document](https://docsend.com/view/mwwb5ptmyjkk86ih) (password: Audit)
 
+INIT Capital is a composable liquidity hook money market that allows any DeFi protocols to permissionlessly build liquidity hook plugins and borrow liquidity to execute various DeFi strategies from simple to complex strategies. Additionally, end users on INIT Capital have access to all hooks, which are yield generating strategies, in a few clicks without having to use and manage many accounts and positions on multiple DeFi applications. 
+
+More overview is provided in [the following document](https://docsend.com/view/mwwb5ptmyjkk86ih) (password: Audit)
+
+### Technical Overview
+
+INIT Key features include:
+- Multi-Silo Position: Each wallet address can manage multiple isolated positions, having a separate position id.
+- Flashloan 
+- Multicall: A batched sequence of actions executed through multicall. Users have the option to borrow first and collateralize later.
+- LP tokens as collateral by utilizing wrapped LPs.
+- Interest rate model.
+
+**InitCore** - The primary entrypoint for most interactions. Users can perform actions directly to each function or utilize multicall to batch several actions together. Key actions include:
+- mintTo: Depositing tokens and receiving shares in return.
+- burnTo: Burning tokens to redeem the underlying assets.
+- collateralize: Transferring the deposited tokens to collateralize a position.
+- decollateralize: Reversing the collateralization process.
+- borrow: Borrowing tokens out of the system
+- repay: Repaying borrowed tokens
+
+**LendingPool** - Manages the supply and the total debt share.
+
+**PosManager** - Manages each position, including the debt shares of each borrowed token, and also the collaterals
+
+**LiqIncentiveCalculator** - Handles liquidation incentive calculation. It is currently based on how unhealthy the position is.
+
+**MoneyMarketHook** - Hook implementation for regular money market actions: deposit, withdraw, borrow, repay.
+
+**WLp** - Wrapped LP contract (currently not in scope, since this is pending integration with certain DEXs). This should also handle reward calculations.
+
+**InitOracle** - Aggregate underlying oracle prices by using primary & secondary sources.
+
+**RiskManager** - Handles potential risk that may arise in the money market, for example, large price impact from having too much concentration of collateralization (currently handled by the introduction of debt ceiling per mode).
+
+
+
+![flow](./resources/diagram_flow.png)
 
 ## Links
 
