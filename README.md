@@ -26,6 +26,7 @@ Known issues:
 - `totalInterest` may slightly overestimate the actual interest accrual due to rounding up (in the order of wei).
 
 # Overview
+Code overview is provided in [the following document](https://docsend.com/view/mwwb5ptmyjkk86ih) (password: Audit)
 
 
 ## Links
