@@ -270,8 +270,4 @@ contract MoneyMarketHook is IMoneyMarketHook, ERC721HolderUpgradeable {
         }
         return (_offset, _data);
     }
-
-    receive() external payable {
-        _require(msg.sender == WNATIVE, Errors.NOT_WNATIVE);
-    }
 }

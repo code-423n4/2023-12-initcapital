@@ -90,7 +90,7 @@ INIT Key features include:
 | [contracts/core/InitCore.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/InitCore.sol) | 423 | Main contract for most interactions to INIT | 
 | [contracts/core/LiqIncentiveCalculator.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/LiqIncentiveCalculator.sol) | 80 | Liquidation incentive calculation  | 
 | [contracts/core/PosManager.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/core/PosManager.sol) | 263 | Position manager  | 
-| [contracts/hook/MoneyMarketHook.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/hook/MoneyMarketHook.sol) | 183 | Hook for regular money market actions, for example, deposit, withdraw, borrow, repay  | 
+| [contracts/hook/MoneyMarketHook.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/hook/MoneyMarketHook.sol) | 180 | Hook for regular money market actions, for example, deposit, withdraw, borrow, repay  | 
 | [contracts/lending_pool/DoubleSlopeIRM.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/lending_pool/DoubleSlopeIRM.sol) | 29 | Interest rate model utilizing a 2-slope mechanism  | 
 | [contracts/lending_pool/LendingPool.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/lending_pool/LendingPool.sol) | 183 | ERC20 lending pool | 
 | [contracts/oracle/Api3OracleReader.sol](https://github.com/code-423n4/2023-12-initcapital/tree/main/contracts/oracle/Api3OracleReader.sol) | 55 | API3 oracle integration | 
@@ -141,7 +141,7 @@ INIT Key features include:
 ```
 - If you have a public code repo, please share it here: -
 - How many contracts are in scope?: 17   
-- Total SLoC for these contracts?: 1548 
+- Total SLoC for these contracts?: 1545 
 - How many external imports are there?: Many (most are OpenZeppelin's library)
 - How many separate interfaces and struct definitions are there for the contracts within scope?: 21 interfaces, 16 structs
 - Does most of your code generally use composition or inheritance?: Composition   
