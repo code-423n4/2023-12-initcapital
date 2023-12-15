@@ -64,7 +64,7 @@ INIT Key features include:
 
 
 
-![flow](https://github.com/code-423n4/2023-12-initcapital/blob/main/resources/diagram_flow.png)
+![flow](https://github.com/code-423n4/2023-12-initcapital/blob/main/resources/diagram_flow.png?raw=true)
 
 ## Links
 
